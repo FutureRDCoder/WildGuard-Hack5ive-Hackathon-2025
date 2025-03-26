@@ -1,42 +1,76 @@
-# WildGuard - (Animal Welfare) Hackathon 2025
+# 🌿 WildGuards - Guardians of Animal Welfare
 
-## Overview
-WildGuard is a digital platform designed for the "Animal Welfare: Guardians of Animal Welfare" hackathon. It addresses threats to endangered species and industrial animals by combining AI-driven monitoring, a community reporting app, and transparent welfare scoring. Our mission is to empower guardians and protect animal lives through technology.
+Welcome to **WildGuards**, a digital ecosystem dedicated to promoting animal welfare through technology and community involvement. Our platform leverages **AI**, **IoT**, **Blockchain**, and a passionate community to protect endangered species and improve the welfare of industrial animals.
 
-## Features
-- **AI Monitoring:** Real-time threat detection using IoT sensor data and image analysis. (TBD)
-- **Welfare Score:** A dashboard rating organizations based on animal welfare standards. (TBD)
-- **Community Reporting:** Mobile app for users to report violations, processed by AI. (TBD)
-- **Ethical Certification:** Blockchain-based tracking for compliant industries. (TBD)
+---
 
-## Repository Structure
-- `/src`: Source code.
-- `/docs`: Abstract PDF and project documentation.
-- `/assets`: Sample data, mockups, and images.
-- `/tests`: Test scripts (if applicable).
+## 🚀 What We've Done So Far
 
-## Setup Instructions
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/[YourTeamName]/WildGuard-Hackathon-2025.git
-   cd WildGuard-Hackathon-2025
-   ```
+- **Frontend Development**: Created multiple HTML pages including:
+  - Home
+  - About Us
+  - Rescue Stories
+  - How to Help
+  - Resources
+  - Contact Us
 
-Install Dependencies:
+- **Styling**: Implemented a nature-oriented, earthy, and elegant design with appealing fonts.
 
-For Python: pip install -r requirements.txt
-For Frontend: npm install (if using Node.js/React).
-Run the Application:
-Backend: python src/main.py
-Frontend: npm start
-Access: Open http://localhost:3000 in your browser (adjust port as needed).
+- **Background Video**: Added a background video to enhance user engagement.
 
-Demo
-See /docs/WildGuard_Screenshots.pdf or our video link (TBD) for a walkthrough.
+- **Form Validation**: Basic frontend validation for the Contact Us form.
 
-Team
-R.D Sundaram
-Tohit Kochhar
+- **Backend Integration**: Node.js server with Express to handle:
+  - Serving static HTML pages.
+  - Saving form data to `messages.json`.
 
-License
-MIT License - Free to use and modify with attribution.
+---
+
+## 📂 Project Structure
+
+```
+WildGuards/
+│
+├── /public
+│   ├── home.html
+│   ├── aboutus.html
+│   ├── rescuedstories.html
+│   ├── howtohelp.html
+│   ├── resources.html
+│   ├── contactus.html
+│   └── styles.css
+│
+├── server.js
+├── messages.json
+├── /node_modules
+├── package.json
+```
+
+---
+
+## ⚙️ How to Run
+
+1. **Clone the Repository**
+```bash
+git clone https://github.com/yourusername/WildGuards.git
+cd WildGuards
+```
+
+2. **Install Dependencies**
+```bash
+npm install
+```
+
+3. **Run the Server**
+```bash
+node server.js
+```
+
+4. **View in Browser**
+```
+http://localhost:3000
+```
+
+---
+
+**🌟 Don't forget to give this project a star if you find it useful!** ⭐
