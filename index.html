@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WildGuards - Guardians of Animal Welfare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>WildGuards</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="rescuedstories.html">Rescue Stories</a></li>
+                <li><a href="howtohelp.html">How to Help</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <video autoplay muted loop id="background-video">
+            <source src="lion.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay">
+            <h2>Guardians of Animal Welfare</h2>
+            <p>Join us in protecting and caring for animals in need.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>WildGuards is dedicated to promoting the ethical treatment and welfare of animals.</p>
+    </section>
+
+    <section id="stories">
+        <h2>Rescue Stories</h2>
+        <p>Read heartwarming stories of animals we've helped.</p>
+    </section>
+
+    <section id="help">
+        <h2>How to Help</h2>
+        <ul>
+            <li>Volunteer with us</li>
+            <li>Donate to support our mission</li>
+            <li>Advocate for animal welfare</li>
+        </ul>
+    </section>
+
+    <section id="resources">
+        <h2>Resources</h2>
+        <p>Learn about animal welfare laws and guidelines.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="/submit-form" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 WildGuards. All rights reserved.</p>
+    </footer>
+</body>
+</html>
